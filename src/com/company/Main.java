@@ -2,16 +2,15 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private static int fib(int n){
+    private static long fib(Long n){
         if(n==0 || n==1) return 1;
         else return (fib(n-1)+fib(n-2));
     }
     public static void main(String[] args) {
-        Long c1,c2;
-        Integer n=0,resultat;
+        Long c1,c2,n,resultat;
         Scanner scanner = new Scanner(System.in);
 	System.out.println("Donner un nombre n:");
-	n = scanner.nextInt();
+	n = scanner.nextLong();
 	//calcule de temps d'excution
     c1 =  System.currentTimeMillis();
 	resultat = fib(n);

@@ -18,5 +18,4 @@ public class Main {
         System.out.println("La valeur de la suite de Fibonacci pour n = "+ n+ " est = "+ resultat);
         System.out.println("Le temps d'execution est "+ (c2-c1));
     }
-
 }

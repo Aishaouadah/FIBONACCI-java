@@ -23,5 +23,4 @@ public class Main2 {
             int i;
             for (i=0;i<9;i++) {
                 System.out.println(tab2[i]); } }
-
 }
